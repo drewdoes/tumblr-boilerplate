@@ -1,0 +1,24 @@
+// Use Compass
+@import "compass";
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: "ff-tisa-web-pro", serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-family: "omnes-pro", sans-serif;
+$header-font-weight: $bold;
+
+@import "modules/all";
